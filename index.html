@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FormaBox</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="media.css">
+	<link rel="stylesheet" href="media-mob.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-slider-active">
+			<img class="header-back-img" src="/image/background-1.png" alt="header-back-img">
+			<img class="header-back-img" src="/image/background-1.1.png" alt="header-back-img">
+		</div>
+		<div class="header-slider">
+			<img class="header-back-img" src="/image/background-2.png" alt="header-back-img">
+		</div>
+		<div class="header-container">
+			<div class="header-info">
+				<div><img class="header-logo" src="/icons/header-logo.svg" alt="header-logo"></div>
+				<div class="header-main">
+					<div class="header-top">
+						<div class="header-top__number">+7 (4922) 40-49-37</div>
+						<img class="burger-menu-btn" src="/icons/burger.svg" alt="burger-menu">
+						<div class="header-top__search">
+							<div class="message">
+								<div class="header-icon"><img src="/icons/message.svg" alt="message"></div>
+								<div class="header-text">Оставить сообщение</div>
+							</div>
+							<div class="search">
+								<div class="header-icon"><img src="/icons/search.svg" alt="search"></div>
+								<div class="header-text">Поиск</div>
+							</div>
+						</div>
+					</div>
+					<nav class="header-nav">
+						<ul class="header-list">
+							<li class="header-item">О нас</li>
+							<li class="header-item">Продукция</li>
+							<li class="header-item">Услуги</li>
+							<li class="header-item">Новости</li>
+							<li class="header-item">Вакансии</li>
+							<li class="header-item">Контакты</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="header-title header-slider-active">Производство гофрокартона всех типов, марок и профилей для вашего бизнеса</div>
+			<div class="header-title-2 header-slider">Держите ваш бизнес в форме</div>
+			<button class="header-btn">
+				<span>Подробнее</span>
+				<img src="/icons/arrow-right.svg" alt="arrow">
+			</button>
+			<div class="arrow">
+				<img class="arrow-btn" src="/icons/arrow-left.svg" alt="">
+				<img class="arrow-btn" src="/icons/arrow-right.svg" alt="">
+			</div>
+			<div class="mobile-nav">
+				<div class="mobile-nav__header">
+					<img class="mobile-logo" src="/icons/mobile-logo.svg" alt="mobile-logo">
+					<div class="mobile-nav__header-info">
+						<div class="mobile-nav__header-phone">+7 (4922) 40-49-37</div>
+						<img class="close-img" src="/icons/close.svg" alt="close">
+					</div>
+				</div>
+				<div class="mobile-nav__serach">
+					<input class="mobile-nav__serach-input" type="text" id="search" name="search" placeholder="Поиск">
+				</div>
+				<div class="mobile-nav__menu">
+					<ul class="mobile-nav__menu-list">
+						<li class="mobile-nav__menu-item">О нас</li>
+						<li class="mobile-nav__menu-item">Продукция</li>
+						<li class="mobile-nav__menu-item">Услуги</li>
+						<li class="mobile-nav__menu-item">Новости</li>
+						<li class="mobile-nav__menu-item">Вакансии</li>
+						<li class="mobile-nav__menu-item">Контакты</li>
+						<li class="mobile-nav__menu-item">
+							<img src="/icons/message-square.svg" alt="message-square">
+							<span>Оставить сообщение</span>
+						</li>
+						<li class="mobile-nav__menu-item mobile-nav__menu-item-320">+7 (4922) 40-49-37</li>
+					</ul>
+				</div>
+				<div class="mobile-nav__social">
+					<img src="/icons/vk.svg" alt="">
+					<img src="/icons/ok.svg" alt="">
+					<img src="/icons/tg.svg" alt="">
+					<img src="/icons/youtube.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<div class="arrow-320">
+				<img class="arrow-btn-320" src="/icons/point-active.svg" alt="">
+				<img class="arrow-btn-320" src="/icons/point-disabled.svg" alt="">
+			</div>
+			<section class="about-us">
+				<div class="about-us__descr">
+					<div class="about-us__descr-title">О компании</div>
+					<div class="about-us__descr-info">Formabox обладает мощной производственной базой, поэтому заказ любого масштаба будет выполнен в срок</div>
+					<div class="about-us__descr-descr">Наше выгодное отличие от других производителей — широкий спектр выпускаемой продукции. Помимо упаковок и коробок разной формы и размера, Formabox производит картонные и бумажные мешки, втулки, гильзы и шпули.</div>
+				</div>
+				<div class="about-us__video-container">
+					<video id="myVideo" class="about-us__video" controls>
+						<source src="/video.mp4" type="video/mp4">
+					</video>
+					<button id="playPause" class="play-btn">
+						<img src="/icons/play.svg" alt="play">
+					</button>
+				</div>
+				<div class="about-us__info">
+					<div class="about-us__info-block about-us__info-block-top">
+						<div class="about-us__info-top">
+							<img class="picture-img" src="/icons/users.svg" alt="users">
+							<div>
+								<p class="info-title">Специалисты</p>
+								<p class="info-descr about-us__info-descr">для поиска упаковочных решений</p>
+							</div>
+						</div>
+						<div class="about-us__info-top">
+							<img class="picture-img" src="/icons/settings.svg" alt="settings">
+							<div>
+								<p class="info-title">Лаборатория</p>
+								<p class="info-descr about-us__info-descr">входного сырья и готовой продукции</p>
+							</div>
+						</div>
+						<div class="about-us__info-top">
+							<img class="picture-img" src="/icons/heart.svg" alt="heart">
+							<div>
+								<p class="info-title">Экологичность</p>
+								<p class="info-descr about-us__info-descr">Formabox производит упаковку из экологичных материалов</p>
+							</div>
+						</div>
+					</div>
+					<div class="about-us__info-block about-us__info-block-bottom">
+						<div class="about-us__info-bottom">
+							<img class="picture-img" src="/icons/codepen.svg" alt="codepen">
+							<div>
+								<p class="info-title info-title-large">12 000 м<sup>2</sup></p>
+								<p class="info-descr about-us__info-descr">Площадь производственно-складского комплекса</p>
+							</div>
+						</div>
+						<div class="about-us__info-bottom">
+							<img class="picture-img" src="/icons/laeyrs.svg" alt="laeyrs">
+							<div>
+								<p class="info-title info-title-large">12 млн<sup>2</sup></p>
+								<p class="info-descr about-us__info-descr">Гофрокартона и гофропродукции в месяц</p>
+							</div>
+						</div>
+						<div class="about-us__info-bottom">
+							<img class="picture-img" src="/icons/repeat.svg" alt="repeat">
+							<div>
+								<p class="info-title info-title-large">8 млн</p>
+								<p class="info-descr about-us__info-descr">Открытых и закрытых бумажных мешков в месяц</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</section>
+			<section class="products">
+				<div class="title">Продукция</div>
+				<div class="descr">В ассортимент нашей продукции входят разные профили гофрокартона в зависимости от количества слоев</div>
+				<div class="products__card">
+					<div class="card">
+						<div class="card-container">
+							<div class="card-title">Микрогофрокартон</div>
+							<div class="card-descr">Оптимальный материал для производства коробок, который отличается экологич-ностью, небольшим весом и много-функциональностью. <br><br> Примечательно, что при изготовлении гофрокартона можно использовать бумагу и картон из макулатуры.</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__1" src="/image/products-1.png" alt="products-1">
+					</div>
+					<div class="card">
+						<div class="card-container">
+							<div class="card-title">Микрогофрокартон</div>
+							<div class="card-descr">Микрогофрокартон подходит для изготовления упаковки небольших размеров под хрупкий или компактный товар. Тем не менее микрогофрокартон может использоваться и для коробоки под более габаритную продукцию</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__2" src="/image/products-2.png" alt="products-2">
+					</div>
+					<div class="card card-small">
+						<div class="card-container">
+							<div class="card-title card-title__small">Трехслойный гофрокартон</div>
+							<div class="card-descr card-descr__small">Состоит из двух плоских слоев (лайнер) и одного гофрированного слоя (флютинг)</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__3 card-img__small" src="/image/products-3.png" alt="products-3">
+					</div>
+					<div class="card card-small">
+						<div class="card-container">
+							<div class="card-title card-title__small">Пятислойный гофрокартон</div>
+							<div class="card-descr card-descr__small">Состоит из трех плоских (лайнер) и двух гофрированных (флютинг) слоев</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__4 card-img__small" src="/image/products-4.png" alt="products-4">
+					</div>
+					<div class="card">
+						<div class="card-container">
+							<div class="card-title">Короб 4-х клапанный</div>
+							<div class="card-descr">Микрогофрокартон подходит для изготовления упаковки небольших размеров под хрупкий или компактный товар. Тем не менее микрогофрокартон может использоваться и для коробок под более габаритную продукцию</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__5" src="/image/products-5.png" alt="products-5">
+					</div>
+					<div class="card">
+						<div class="card-container">
+							<div class="card-title">Упаковка из гофрокартона</div>
+							<div class="card-descr">
+								<p>Оптимальный материал для производства коробок, который отличается экологич-ностью, небольшим весом и много-функциональностью.</p>
+								<br>
+								<p>Примечательно, что при изготовлении гофрокартона можно использовать бумагу и картон из макулатуры: 
+									это позволяет снизить нагрузку на окружающую среду и экономить материалы для сырья.</p>
+							</div>
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__6" src="/image/products-6.png" alt="products-6">
+					</div>
+					<div class="card card-small">
+						<div class="card-container">
+							<div class="card-title card-title__small">Короб сложной высечки</div>
+							<div class="card-descr card-descr__small">Упаковка сложной конфигурации с дополнительными отверстиями, ручками и элементами</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__7" src="/image/products-7.png" alt="products-7">
+					</div>
+					<div class="card card-small">
+						<div class="card-container">
+							<div class="card-title card-title__small">Гофрорешетка в сборе</div>
+							<div class="card-descr card-descr__small">Ряд ячеек, образованных поперечными и продольными планками из гофрокартона</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__8 " src="/image/products-8.png" alt="products-8">
+					</div>
+					<div class="card">
+						<div class="card-container">
+							<div class="card-title">Каталог FEFCO</div>
+							<div class="card-descr">
+								<p>Каталог разработан как формальная система для упрощения сложных словесных описаний коробок и упаковочных конструкций</p>
+							</div>
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<img class="card-img-9__logo" src="/image/products-9-logo.png" alt="products-9-logo">
+						</div>
+						<img class="card-img card-img__9" src="/image/products-9.png" alt="products-9">
+					</div>
+					<div class="card card-small">
+						<div class="card-container">
+							<div class="card-title card-title__small">Бумажные мешки</div>
+							<div class="card-descr card-descr__small">Экологически чистый вид упаковки применяемый в различных сферах</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__10 " src="/image/products-10.png" alt="products-10">
+					</div>
+					<div class="card card-small">
+						<div class="card-container">
+							<div class="card-title card-title__small">Картонные гильзы</div>
+							<div class="card-descr card-descr__small">Втулки выпускаются в несколько слоев. Количество бумажных слоёв может быть от 3 до 25</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__11 " src="/image/products-11.png" alt="products-11">
+					</div>
+					<div class="card">
+						<div class="card-container">
+							<div class="card-title">Полиэтилен</div>
+							<div class="card-descr">
+								<p>Помимо прямого использования плёнка из&nbspполиэтилена высокого давления (ПВД)&nbspявляется универсальным материалом для изготовления различной&nbspупаковки</p>
+							</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__12" src="/image/products-12.png" alt="products-12">
+					</div>
+					<div class="card">
+						<div class="card-container">
+							<div class="card-title">Вспомогательные упаковочные материалы</div>
+							<div class="card-descr">
+								<p>Материалы для упаковывания — материалы, предназначенные для обеспечения целостности различных изделий при их хранении или перевозке</p>
+							</div>	
+							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+						</div>
+						<img class="card-img card-img__13" src="/image/products-13.png" alt="products-13">
+					</div>
+				</div>
+			</section>
+			<section class="technologies">
+				<div class="technologies-info">
+					<div>
+						<div class="title">Технологии и производство</div>
+						<div class="descr technologies-descr">
+							Для оперативного выполнения заказов любого масштаба мы располагаем двумя&nbspгофроагрегаторами. 
+							Производственная линия оснащена новейшим оборудованием Cangzhou Zhenxing Packaging Machinery Co
+						</div>
+					</div>
+					<img class="img-logo" src="/image/logo.png" alt="logo">
+				</div>
+				<div class="technologies-slider">
+					<div class="technologies-slider__btn">
+						<button class="slider-btn active-btn">Гофрировальные агрегаты</button>
+						<button class="slider-btn">Печатные машины</button>
+						<button class="slider-btn">Плосковысечной пресс</button>
+						<button class="slider-btn">Линии изготовления многослойных бумажных мешков</button>
+					</div>
+					<div class="slider-container" id="gofrirovka">
+						<img class="slider-img" src="/image/technologies-1.png" alt="technologies-1">
+						<div class="slider-block">
+							<div class="slider-block__item">
+								<div class="slider-subtitle">Гофрировальный агрегат WJ200-2200</div>
+								<div class="slider-title">Линия по производству трёх- и пятислойного гофрокартона:</div>
+								<ul class="slider-item">
+									<li class="slider-list">3-слойный гофрокартон, профиль В и С</li>
+									<li class="slider-list">5-слойный гофрокартон, профиль ВС</li>
+									<li class="slider-list">Эффективная ширина — 2200 мм</li>
+									<li class="slider-list">Скорость работы — 200 м/мин</li>
+									<li class="slider-list">Производительность — 9 млн м<sup>2</sup>/мес</li>
+								</ul>
+							</div>	
+							<div class="slider-block__item">
+								<div class="slider-subtitle">Гофрировальный агрегат WJ100-1600</div>
+								<div class="slider-title">Линия по производству трёхслойного гофрокартона:</div>
+								<ul class="slider-item">
+									<li class="slider-list">3-слойный микрогофрокартон</li>
+									<li class="slider-list">Эффективная ширина — 1600 мм</li>
+									<li class="slider-list">Скорость работы — 100 м/мин</li>
+									<li class="slider-list">Скорость работы — 200 м/мин</li>
+									<li class="slider-list">Производительность — 3 млн м<sup>2</sup>/мес</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="slider-container" id="printing">
+						<img class="slider-img" src="/image/technologies-2.png" alt="technologies-2">
+						<div class="slider-block">
+							<div class="slider-block__item">
+								<div class="slider-title">SYKM1224</div>
+								<ul class="slider-item">
+									<li class="slider-list">5-красочная флексопечать</li>
+									<li class="slider-list">Секция ИК-лакирования</li>
+									<li class="slider-list">Максимальный размер заготовки 1270х2600 мм</li>
+									<li class="slider-list">Минимальный размер заготовки 380х700 мм</li>
+									<li class="slider-list">Рабочая скорость — 220 заготовок/мин</li>
+									<li class="slider-list">Производительность — 250 000 заготовок/сутки</li>
+								</ul>
+							</div>	
+							<div class="slider-block__item">
+								<div class="slider-title">SYKM1626</div>
+								<ul class="slider-item">
+									<li class="slider-list">3-красочная флексопечать</li>
+									<li class="slider-list">Максимальный размер заготовки 1650х2800 мм</li>
+									<li class="slider-list">Минимальный размер заготовки 450х650 мм</li>
+									<li class="slider-list">Рабочая скорость — 180 заготовок/мин</li>
+									<li class="slider-list">Производительность — 235 000 заготовок/сутки</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="technologies-sort">
+					<div class="technologies-block">
+						<img class="picture-img" src="/icons/sliders.svg" alt="sliders">
+						<div>
+							<p class="info-title">Автоматизация</p>
+							<p class="info-descr technologies__info-descr">Преимущество компании в том,&nbspчто линия производства полностью автоматическая</p>
+						</div>
+					</div>
+					<div class="technologies-block">
+						<img class="picture-img" src="/icons/clock.svg" alt="clock">
+						<div>
+							<p class="info-title">Производительность</p>
+							<p class="info-descr technologies__info-descr">Наличие двух гофроагрегатов позволяет&nbspпроизводить одновременно различные типы профилей</p>
+						</div>
+					</div>
+					<div class="technologies-block">
+						<img class="picture-img" src="/icons/codesandbox.svg" alt="codesandbox">
+						<div>
+							<p class="info-title">Ассортимент</p>
+							<p class="info-descr technologies__info-descr">Наличие автоматического плосковысечного пресса позволяет расширить ассортимент выпускаемой продукции</p>
+						</div>
+					</div>
+				</div>
+				<div class="technologies-nature">
+						<div class="nature-block">
+							<img class="nature-img" src="/icons/nature-heart.svg" alt="nature-heart">
+							<div class="nature-title">Забота об окружающей среде</div>
+							<div class="nature-descr">Рациональность потребления и производства — до 50% продукции изготавливается&nbspиз вторичного сырья: макулатурного лайнера, флютинга&nbspи&nbspмешочной бумаги</div>
+						</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="title">Услуги</div>
+				<div class="descr services-descr">Одним из основных видов деятельности нашего&nbspпредприятия является производство гофрокартона разных марок и профилей</div>
+				<div class="services-sort">
+					<div class="services-block">
+						<img class="picture-img" src="/icons/clock.svg" alt="clock">
+						<div>
+							<p class="info-title">Сроки</p>
+							<p class="info-descr services__info-descr">Минимальные сроки выполнения заказов</p>
+						</div>
+					</div>
+					<div class="services-block">
+						<img class="picture-img" src="/icons/check-circle.svg" alt="check-circle">
+						<div>
+							<p class="info-title">Качество</p>
+							<p class="info-descr services__info-descr">Тонкая настройка нужного вам&nbspкачества</p>
+						</div>
+					</div>
+					<div class="services-block">
+						<img class="picture-img" src="/icons/star.svg" alt="star">
+						<div>
+							<p class="info-title">Эффективность</p>
+							<p class="info-descr services__info-descr">Высокая ценность продукции при&nbspоптимальной цене</p>
+						</div>
+					</div>
+				</div>
+				<div class="services-info">
+					<div class="services-info-block services-info-block-1">
+						<img class="services-info-img" src="/image/services-1.png" alt="services-1">
+						<div class="services-info-block__title">Проектирование и дизайн</div>
+						<div class="services-info-block__subtitle">Упаковка — лицо бренда</div>
+						<div class="services-info-block__descr services-info-block__descr-1">Это важный инструмент, который помогает увеличивать прибыль, привлекать новых клиентов, формировать имидж <br> и репутацию</div>
+					</div>
+					<div class="services-info-block services-info-block-2">
+						<img class="services-info-img" src="/image/services-2.png" alt="services-2">
+						<div class="services-info-block__title">Печать</div>
+						<div class="services-info-block__subtitle">Гофротара как рекламный носитель</div>
+						<div class="services-info-block__descr services-info-block__descr-2">Нанесение логотипа на транспортировочную упаковку — это не дорогой способ повысить узнаваемость и увеличить лояльность к бренду</div>
+					</div>
+					<div class="services-info-block services-info-block-3">
+						<img class="services-info-img" src="/image/services-3.png" alt="services-3">
+						<div class="services-info-block__title">Транспортировка</div>
+						<div class="services-info-block__subtitle">Все виды доставки</div>
+						<div class="services-info-block__descr services-info-block__descr-3">Компания осуществляет доставку в&nbspлюбую&nbspточку Центральной <br> России</div>
+					</div>
+					<div class="services-info-block services-info-block-4">
+						<img class="services-info-img" src="/image/services-4.png" alt="services-4">
+						<div class="services-info-block__title">Хранение</div>
+						<div class="services-info-block__subtitle">Хранение продукции</div>
+						<div class="services-info-block__descr services-info-block__descr-4">Предприятие оборудовано тёплым складом класса А с электронной библиотекой хранения</div>
+					</div>
+				</div>
+			</section>
+			<section class="consultation">
+				<div class="consultation-title">Консультация специалиста</div>
+				<div class="consultation-descr">Оставьте ваши контактные данные и мы свяжемся с Вами для уточнения Вашего интереса и вместе выберем удобное время для встречи</div>
+				<form class="consultation-form">
+					<input class="form-input" type="text" id="full_name" name="full_name" placeholder="Ваше имя" required>
+					<input class="form-input" type="tel" id="phone_number" name="phone_number" placeholder="Телефон" required>
+					<input class="form-input" type="email" id="email" name="email" placeholder="Эл. почта" required>
+				</form>
+				<button class="form-btn">
+					<span>Отправить</span>
+					<img src="/icons/arrow-right.svg" alt="arrow">
+				</button>
+			</section>
+			<section class="newsletter">
+				<div class="newslatter-head">
+					<div class="title">Новости</div>
+					<button class="newsletter-btn">Все новости</button>
+				</div>
+				<div class="news">
+					<div class="new">
+						<div class="new-img new-img-1"></div>
+						<div class="new-block">
+							<div class="new-date">2 августа 2022</div>
+							<div class="new-title">Официальное открытие</div>
+							<div class="new-descr">Во Владимире открыли новое предприятие «Формабокс» по выпуску гофрокартона и гофро-продукции. В мероприятии приняли участие врио губернатора Владимирской области Александр Авдеев, глава города Владимира Андрей Шохин и&nbspгенеральный директор предприятия Наталья Алексеева.</div>
+						</div>
+					</div>
+					<div class="new">
+						<div class="new-img new-img-2"></div>
+						<div class="new-block">
+							<div class="new-date">21 мая 2022</div>
+							<div class="new-title">Запуск гильзонавивочной линии</div>
+							<div class="new-descr">Шпуленавивное оборудование предназначено для производства картонной шпули (втулки, гильзы) способом спиралевидной навивки из полос бумаги/картона.</div>
+						</div>
+					</div>
+					<div class="new">
+						<div class="new-img new-img-3"></div>
+						<div class="new-block">
+							<div class="new-date">5 апреля 2022</div>
+							<div class="new-title">Запуск автоматической фальцевально-склеивающей машины</div>
+							<div class="new-descr">Фальцевально-склеивающая линия применяется для складывания и склейки прямоугольных картонных коробок в автоматическом режиме из&nbspзаготовок. Может осуществлять склеивание картонных коробок и гофрокартонных коробов стандартного и сложного кроя, на&nbsp1&nbsp—&nbsp4&nbspточек&nbspсклейки.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-container">
+				<div class="footer-top">
+					<div class="footer-info">
+						<div class="footer-info__logo">
+							<img class="footer-info__logo" src="/icons/logo-footer.svg" alt="logo-footer">
+						</div>
+					</div>
+					<div class="footer-item">
+						<ul class="footer-items footer-items-1">
+								<li class="footer-list">О нас</li>
+								<li class="footer-list">Продукция</li>
+								<li class="footer-list">Услуги</li>
+						</ul>
+						<ul class="footer-items footer-items-2">
+								<li class="footer-list">Новости</li>
+								<li class="footer-list">Вакансии</li>
+								<li class="footer-list">Контакты</li>
+						</ul>
+						<ul class="footer-items footer-items-3">
+								<li class="footer-list footer-list-grey">Консультация</li>
+								<li class="footer-list footer-list-grey">Связаться</li>
+								<li class="footer-list footer-list-grey">Оставить заявку</li>
+						</ul>
+				</div>
+				</div>
+				<div class="footer-middle">
+					<div class="footer-info__descr">
+						<div class="footer-info__descr-text">600016, Владимирская область, г. Владимир, ул. Большая Нижегородская, д. 79</div>
+						<div class="footer-info__descr-text">Время работы: <br> пн–пт с 9:00 до 18:00</div>
+					</div>
+					<div class="footer-contacts">
+						<div class="footer-contacts__text-960">
+							<div class="footer-contacts__text">
+								<img class="footer-contacts__img" src="/icons/phone.svg" alt="phone">
+								<span>+7 (4922) 40-49-37</span>
+						</div>
+						<div class="footer-contacts__text">	
+								<img class="footer-contacts__img" src="/icons/mail.svg" alt="mail">
+								<span>sales@forma-box.ru</span>
+						</div>
+						</div>
+						<div class="footer-contacts__social">
+								<img src="/icons/vk.svg" alt="">
+								<img src="/icons/ok.svg" alt="">
+								<img src="/icons/tg.svg" alt="">
+								<img src="/icons/youtube.svg" alt="">
+						</div>
+					</div>
+					<div class="footer-contacts__info">
+						<span class="footer-contacts__info-text">Держите ваш бизнес в форме</span>
+				</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-info__subdescr">
+						© «Formabox», 2022
+					</div>
+					<div class="police-text police-text-1">Общество с ограниченной ответственностью «Формабокс» Formabox, LLC</div>
+					<div class="police-text">Политика&nbspконфиденциальности</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="index.js"></script>
+</body>
+</html>
