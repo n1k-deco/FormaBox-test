@@ -20,28 +20,34 @@ sliderButtons.forEach(button => {
 		const buttonText = this.innerText.toLowerCase();
 		if (buttonText === 'гофрировальные агрегаты') {
 			gofrirovka.style.display = 'flex';
+			printing.style.display = 'none';
 		} else if (buttonText === 'печатные машины') {
+			gofrirovka.style.display = 'none';
 			printing.style.display = 'flex';
-			gofrirovka.style.display = 'none'; 
 		}
+		
 	});
 });
 
 const arrowButtons = document.querySelectorAll('.arrow-btn');
 arrowButtons.forEach(button => {
 	button.addEventListener('click', () => {
-		const slider = document.querySelector('.header-slider');
-		const sliderActive = document.querySelector('.header-slider-active');
+		const sliders = document.querySelectorAll('.header-slider');
+		const slidersActive = document.querySelectorAll('.header-slider-active');
 
-		slider.classList.toggle('header-slider');
-		slider.classList.toggle('header-slider-active');
-		sliderActive.classList.toggle('header-slider-active');
-		sliderActive.classList.toggle('header-slider');
+		sliders.forEach(slider => {
+			slider.classList.toggle('header-slider');
+			slider.classList.toggle('header-slider-active');
+		});
+	  
+		slidersActive.forEach(sliderActive => {
+			sliderActive.classList.toggle('header-slider-active');
+			sliderActive.classList.toggle('header-slider');
+		});
 	});
 });
 
 const arrowButtons320 = document.querySelectorAll('.arrow-btn-320');
-
 arrowButtons320.forEach(button => {
 	button.addEventListener('click', () => {
 		arrowButtons320.forEach(btn => {
@@ -54,13 +60,18 @@ arrowButtons320.forEach(button => {
 			}
 		});
 
-		const slider = document.querySelector('.header-slider');
-		const sliderActive = document.querySelector('.header-slider-active');
+		const sliders = document.querySelectorAll('.header-slider');
+		const slidersActive = document.querySelectorAll('.header-slider-active');
 
-		slider.classList.toggle('header-slider');
-		slider.classList.toggle('header-slider-active');
-		sliderActive.classList.toggle('header-slider-active');
-		sliderActive.classList.toggle('header-slider');
+		sliders.forEach(slider => {
+			slider.classList.toggle('header-slider');
+			slider.classList.toggle('header-slider-active');
+		});
+	  
+		slidersActive.forEach(sliderActive => {
+			sliderActive.classList.toggle('header-slider-active');
+			sliderActive.classList.toggle('header-slider');
+		});
 	});
 });
 
