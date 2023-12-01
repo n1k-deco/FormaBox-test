@@ -37,12 +37,24 @@
 					</div>
 					<nav class="header-nav">
 						<ul class="header-list">
-							<li class="header-item">О нас</li>
-							<li class="header-item">Продукция</li>
-							<li class="header-item">Услуги</li>
-							<li class="header-item">Новости</li>
-							<li class="header-item">Вакансии</li>
-							<li class="header-item">Контакты</li>
+							<a href="#about-us" class="header-link">
+								<li class="header-item">О нас</li>
+							</a>
+							<a href="#products" class="header-link">
+								<li class="header-item">Продукция</li>
+							</a>
+							<a href="#services" class="header-link">
+								<li class="header-item">Услуги</li>
+							</a>
+							<a href="#newsletter" class="header-link">
+								<li class="header-item">Новости</li>
+							</a>
+							<a href="#" class="header-link">
+								<li class="header-item">Вакансии</li>
+							</a>
+							<a href="#footer" class="header-link">
+								<li class="header-item">Контакты</li>
+							</a>
 						</ul>
 					</nav>
 				</div>
@@ -70,24 +82,48 @@
 				</div>
 				<div class="mobile-nav__menu">
 					<ul class="mobile-nav__menu-list">
-						<li class="mobile-nav__menu-item">О нас</li>
-						<li class="mobile-nav__menu-item">Продукция</li>
-						<li class="mobile-nav__menu-item">Услуги</li>
-						<li class="mobile-nav__menu-item">Новости</li>
-						<li class="mobile-nav__menu-item">Вакансии</li>
-						<li class="mobile-nav__menu-item">Контакты</li>
-						<li class="mobile-nav__menu-item">
-							<img src="/icons/message-square.svg" alt="message-square">
-							<span>Оставить сообщение</span>
-						</li>
-						<li class="mobile-nav__menu-item mobile-nav__menu-item-320">+7 (4922) 40-49-37</li>
+						<a href="#about-us" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item">О нас</li>
+						</a>
+						<a href="#products" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item">Продукция</li>
+						</a>
+						<a href="#services" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item">Услуги</li>
+						</a>
+						<a href="#newsletter" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item">Новости</li>
+						</a>
+						<a href="#" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item">Вакансии</li>
+						</a>
+						<a href="#footer" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item">Контакты</li>
+						</a>
+						<a href="#" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item">
+								<img src="/icons/message-square.svg" alt="message-square">
+								<span>Оставить сообщение</span>
+							</li>
+						</a>
+						<a href="#" class="mobile-nav__menu-link">
+							<li class="mobile-nav__menu-item mobile-nav__menu-item-320">+7 (4922) 40-49-37</li>
+						</a>
 					</ul>
 				</div>
 				<div class="mobile-nav__social">
-					<img src="/icons/vk.svg" alt="">
-					<img src="/icons/ok.svg" alt="">
-					<img src="/icons/tg.svg" alt="">
-					<img src="/icons/youtube.svg" alt="">
+					<a href="https://vk.com/" target="_blank">
+						<img src="/icons/vk.svg" alt="vk">
+					</a>
+					<a href="https://ok.ru/" target="_blank" >
+						<img src="/icons/ok.svg" alt="ok">
+					</a>
+					<a href="https://web.telegram.org/" target="_blank" >
+						<img src="/icons/tg.svg" alt="tg">
+					</a>
+					<a href="https://www.youtube.com/" target="_blank" >
+						<img src="/icons/youtube.svg" alt="youtube">
+					</a>
 				</div>
 			</div>
 		</div>
@@ -98,10 +134,10 @@
 				<img class="arrow-btn-320" src="/icons/point-active.svg" alt="">
 				<img class="arrow-btn-320" src="/icons/point-disabled.svg" alt="">
 			</div>
-			<section class="about-us">
+			<section class="about-us" id="about-us">
 				<div class="about-us__descr">
-					<div class="about-us__descr-title">О компании</div>
-					<div class="about-us__descr-info">Formabox обладает мощной производственной базой, поэтому заказ любого масштаба будет выполнен в срок</div>
+					<h2 class="about-us__descr-title">О компании</h2>
+					<h3 class="about-us__descr-info">Formabox обладает мощной производственной базой, поэтому заказ любого масштаба будет выполнен в срок</h3>
 					<div class="about-us__descr-descr">Наше выгодное отличие от других производителей — широкий спектр выпускаемой продукции. Помимо упаковок и коробок разной формы и размера, Formabox производит картонные и бумажные мешки, втулки, гильзы и шпули.</div>
 				</div>
 				<div class="about-us__video-container">
@@ -117,21 +153,21 @@
 						<div class="about-us__info-top">
 							<img class="picture-img" src="/icons/users.svg" alt="users">
 							<div>
-								<p class="info-title">Специалисты</p>
+								<h3 class="info-title">Специалисты</h3>
 								<p class="info-descr about-us__info-descr">для поиска упаковочных решений</p>
 							</div>
 						</div>
 						<div class="about-us__info-top">
 							<img class="picture-img" src="/icons/settings.svg" alt="settings">
 							<div>
-								<p class="info-title">Лаборатория</p>
+								<h3 class="info-title">Лаборатория</h3>
 								<p class="info-descr about-us__info-descr">входного сырья и готовой продукции</p>
 							</div>
 						</div>
 						<div class="about-us__info-top">
 							<img class="picture-img" src="/icons/heart.svg" alt="heart">
 							<div>
-								<p class="info-title">Экологичность</p>
+								<h3 class="info-title">Экологичность</h3>
 								<p class="info-descr about-us__info-descr">Formabox производит упаковку из экологичных материалов</p>
 							</div>
 						</div>
@@ -140,146 +176,168 @@
 						<div class="about-us__info-bottom">
 							<img class="picture-img" src="/icons/codepen.svg" alt="codepen">
 							<div>
-								<p class="info-title info-title-large">12 000 м<sup>2</sup></p>
+								<h3 class="info-title info-title-large">12 000 м<sup>2</sup></h3>
 								<p class="info-descr about-us__info-descr">Площадь производственно-складского комплекса</p>
 							</div>
 						</div>
 						<div class="about-us__info-bottom">
 							<img class="picture-img" src="/icons/laeyrs.svg" alt="laeyrs">
 							<div>
-								<p class="info-title info-title-large">12 млн<sup>2</sup></p>
+								<h3 class="info-title info-title-large">12 млн<sup>2</sup></h3>
 								<p class="info-descr about-us__info-descr">Гофрокартона и гофропродукции в месяц</p>
 							</div>
 						</div>
 						<div class="about-us__info-bottom">
 							<img class="picture-img" src="/icons/repeat.svg" alt="repeat">
 							<div>
-								<p class="info-title info-title-large">8 млн</p>
+								<h3 class="info-title info-title-large">8 млн</h3>
 								<p class="info-descr about-us__info-descr">Открытых и закрытых бумажных мешков в месяц</p>
 							</div>
 						</div>
 					</div>	
 				</div>
 			</section>
-			<section class="products">
-				<div class="title">Продукция</div>
+			<section class="products" id="products">
+				<h2 class="title">Продукция</h2>
 				<div class="descr">В ассортимент нашей продукции входят разные профили гофрокартона в зависимости от количества слоев</div>
 				<div class="products__card">
 					<div class="card card-1">
 						<div class="card-container card-container-1">
-							<div class="card-title">Микрогофрокартон</div>
+							<h3 class="card-title">Микрогофрокартон</h3>
 							<div class="card-descr">Оптимальный материал для производства коробок, который отличается экологич-ностью, небольшим весом и много-функциональностью. <br><br> Примечательно, что при изготовлении гофрокартона можно использовать бумагу и картон из макулатуры.</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-2">
 						<div class="card-container card-container-2">
-							<div class="card-title">Микрогофрокартон</div>
+							<h3 class="card-title">Микрогофрокартон</h3>
 							<div class="card-descr">Микрогофрокартон подходит для изготовления упаковки небольших размеров под хрупкий или компактный товар. Тем не менее микрогофрокартон может использоваться и для коробоки под более габаритную продукцию</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-small">
 						<div class="card-container card-container-3">
-							<div class="card-title card-title__small">Трехслойный гофрокартон</div>
+							<h3 class="card-title card-title__small">Трехслойный гофрокартон</h3>
 							<div class="card-descr card-descr__small">Состоит из двух плоских слоев (лайнер) и одного гофрированного слоя (флютинг)</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-small">
 						<div class="card-container card-container-4">
-							<div class="card-title card-title__small">Пятислойный гофрокартон</div>
+							<h3 class="card-title card-title__small">Пятислойный гофрокартон</h3>
 							<div class="card-descr card-descr__small">Состоит из трех плоских (лайнер) и двух гофрированных (флютинг) слоев</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-5">
 						<div class="card-container card-container-5">
-							<div class="card-title">Короб 4-х клапанный</div>
+							<h3 class="card-title">Короб 4-х клапанный</h3>
 							<div class="card-descr card-descr-400">Микрогофрокартон подходит для изготовления упаковки небольших размеров под хрупкий или компактный товар. Тем не менее микрогофрокартон может использоваться и для коробок под более габаритную продукцию</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-6">
 						<div class="card-container card-container-6">
-							<div class="card-title">Упаковка из гофрокартона</div>
+							<h3 class="card-title">Упаковка из гофрокартона</h3>
 							<div class="card-descr card-descr-400">
 								<p>Оптимальный материал для производства коробок, который отличается экологич-ностью, небольшим весом и много-функциональностью.</p>
 								<br>
 								<p>Примечательно, что при изготовлении гофрокартона можно использовать бумагу и картон из макулатуры: 
 									это позволяет снизить нагрузку на окружающую среду и экономить материалы для сырья.</p>
 							</div>
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-small">
 						<div class="card-container card-container-7">
-							<div class="card-title card-title__small">Короб сложной высечки</div>
+							<h3 class="card-title card-title__small">Короб сложной высечки</h3>
 							<div class="card-descr card-descr__small">Упаковка сложной конфигурации с дополнительными отверстиями, ручками и элементами</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-small">
 						<div class="card-container card-container-8">
-							<div class="card-title card-title__small">Гофрорешетка в сборе</div>
+							<h3 class="card-title card-title__small">Гофрорешетка в сборе</h3>
 							<div class="card-descr card-descr__small">Ряд ячеек, образованных поперечными и продольными планками из гофрокартона</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-9">
 						<div class="card-container card-container-9">
-							<div class="card-title">Каталог FEFCO</div>
+							<h3 class="card-title">Каталог FEFCO</h3>
 							<div class="card-descr card-descr-400">
 								<p>Каталог разработан как формальная система для упрощения сложных словесных описаний коробок и упаковочных конструкций</p>
 							</div>
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
-							<!-- <img class="card-img-9__logo" src="/image/products-9-logo.png" alt="products-9-logo"> -->
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-small card-10">
 						<div class="card-container card-container-10">
-							<div class="card-title card-title__small">Бумажные мешки</div>
+							<h3 class="card-title card-title__small">Бумажные мешки</h3>
 							<div class="card-descr card-descr__small">Экологически чистый вид упаковки применяемый в различных сферах</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-small">
 						<div class="card-container card-container-11">
-							<div class="card-title card-title__small">Картонные гильзы</div>
+							<h3 class="card-title card-title__small">Картонные гильзы</h3>
 							<div class="card-descr card-descr__small">Втулки выпускаются в несколько слоев. Количество бумажных слоёв может быть от 3 до 25</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>
 					</div>
 					<div class="card card-12">
 						<div class="card-container card-container-12">
-							<div class="card-title">Полиэтилен</div>
+							<h3 class="card-title">Полиэтилен</h3>
 							<div class="card-descr card-descr-400">
 								<p>Помимо прямого использования плёнка из&nbspполиэтилена высокого давления (ПВД)&nbspявляется универсальным материалом для изготовления различной&nbspупаковки</p>
 							</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>					
 					</div>
 					<div class="card card-13">
 						<div class="card-container card-container-13">
-							<div class="card-title">Вспомогательные упаковочные материалы</div>
+							<h3 class="card-title">Вспомогательные упаковочные материалы</h3>
 							<div class="card-descr card-descr-400">
 								<p>Материалы для упаковывания — материалы, предназначенные для обеспечения целостности различных изделий при их хранении или перевозке</p>
 							</div>	
-							<img class="arrow-right" src="/icons/arrow-right.svg" alt="">
+							<a href="#" class="card-link">
+								<img class="arrow-right" src="/icons/arrow-right.svg" alt="arrow-right">
+							</a>
 						</div>					
 					</div>
 				</div>
 			</section>
-			<section class="technologies">
+			<section class="technologies" id="technologies">
 				<div class="technologies-info">
-					<div>
-						<div class="title">Технологии и производство</div>
-						<div class="descr technologies-descr">
-							Для оперативного выполнения заказов любого масштаба мы располагаем двумя&nbspгофроагрегаторами. 
-							Производственная линия оснащена новейшим оборудованием Cangzhou Zhenxing Packaging Machinery Co
-						</div>
+					<h2 class="title">Технологии и производство</h2>
+					<div class="descr technologies-descr">
+						Для оперативного выполнения заказов любого масштаба мы располагаем двумя&nbspгофроагрегаторами. 
+						Производственная линия оснащена новейшим оборудованием Cangzhou Zhenxing Packaging Machinery Co
 					</div>
-					<img class="img-logo" src="/image/logo.png" alt="logo">
 				</div>
 				<div class="technologies-slider">
 					<div class="technologies-slider__btn">
@@ -291,7 +349,7 @@
 					<div class="slider-container" id="gofrirovka">
 						<div class="slider-block">
 							<div class="slider-block__item">
-								<div class="slider-subtitle">Гофрировальный агрегат WJ200-2200</div>
+								<h3 class="slider-subtitle">Гофрировальный агрегат WJ200-2200</h3>
 								<div class="slider-title">Линия по производству трёх- и пятислойного гофрокартона:</div>
 								<ul class="slider-item">
 									<li class="slider-list">3-слойный гофрокартон, профиль В и С</li>
@@ -302,7 +360,7 @@
 								</ul>
 							</div>	
 							<div class="slider-block__item">
-								<div class="slider-subtitle">Гофрировальный агрегат WJ100-1600</div>
+								<h3 class="slider-subtitle">Гофрировальный агрегат WJ100-1600</h3>
 								<div class="slider-title">Линия по производству трёхслойного гофрокартона:</div>
 								<ul class="slider-item">
 									<li class="slider-list">3-слойный микрогофрокартон</li>
@@ -317,7 +375,7 @@
 					<div class="slider-container" id="printing">
 						<div class="slider-block">
 							<div class="slider-block__item">
-								<div class="slider-title">SYKM1224</div>
+								<h3 class="slider-title">SYKM1224</h3>
 								<ul class="slider-item">
 									<li class="slider-list">5-красочная флексопечать</li>
 									<li class="slider-list">Секция ИК-лакирования</li>
@@ -328,7 +386,7 @@
 								</ul>
 							</div>	
 							<div class="slider-block__item">
-								<div class="slider-title">SYKM1626</div>
+								<h3 class="slider-title">SYKM1626</h3>
 								<ul class="slider-item">
 									<li class="slider-list">3-красочная флексопечать</li>
 									<li class="slider-list">Максимальный размер заготовки 1650х2800 мм</li>
@@ -344,21 +402,21 @@
 					<div class="technologies-block">
 						<img class="picture-img" src="/icons/sliders.svg" alt="sliders">
 						<div>
-							<p class="info-title">Автоматизация</p>
+							<h3 class="info-title">Автоматизация</h3>
 							<p class="info-descr technologies__info-descr">Преимущество компании в том,&nbspчто линия производства полностью автоматическая</p>
 						</div>
 					</div>
 					<div class="technologies-block">
 						<img class="picture-img" src="/icons/clock.svg" alt="clock">
 						<div>
-							<p class="info-title">Производительность</p>
+							<h3 class="info-title">Производительность</h3>
 							<p class="info-descr technologies__info-descr">Наличие двух гофроагрегатов позволяет&nbspпроизводить одновременно различные типы профилей</p>
 						</div>
 					</div>
 					<div class="technologies-block">
 						<img class="picture-img" src="/icons/codesandbox.svg" alt="codesandbox">
 						<div>
-							<p class="info-title">Ассортимент</p>
+							<h3 class="info-title">Ассортимент</h3>
 							<p class="info-descr technologies__info-descr">Наличие автоматического плосковысечного пресса позволяет расширить ассортимент выпускаемой продукции</p>
 						</div>
 					</div>
@@ -366,62 +424,62 @@
 				<div class="technologies-nature">
 						<div class="nature-block">
 							<img class="nature-img" src="/icons/nature-heart.svg" alt="nature-heart">
-							<div class="nature-title">Забота об окружающей среде</div>
+							<h3 class="nature-title">Забота об окружающей среде</h3>
 							<div class="nature-descr">Рациональность потребления и производства — до 50% продукции изготавливается&nbspиз вторичного сырья: макулатурного лайнера, флютинга&nbspи&nbspмешочной бумаги</div>
 						</div>
 				</div>
 			</section>
-			<section class="services">
-				<div class="title">Услуги</div>
+			<section class="services" id="services">
+				<h2 class="title">Услуги</h2>
 				<div class="descr services-descr">Одним из основных видов деятельности нашего&nbspпредприятия является производство гофрокартона разных марок и профилей</div>
 				<div class="services-sort">
 					<div class="services-block">
 						<img class="picture-img" src="/icons/clock.svg" alt="clock">
 						<div>
-							<p class="info-title">Сроки</p>
+							<h3 class="info-title">Сроки</h3>
 							<p class="info-descr services__info-descr">Минимальные сроки выполнения заказов</p>
 						</div>
 					</div>
 					<div class="services-block">
 						<img class="picture-img" src="/icons/check-circle.svg" alt="check-circle">
 						<div>
-							<p class="info-title">Качество</p>
+							<h3 class="info-title">Качество</h3>
 							<p class="info-descr services__info-descr">Тонкая настройка нужного вам&nbspкачества</p>
 						</div>
 					</div>
 					<div class="services-block">
 						<img class="picture-img" src="/icons/star.svg" alt="star">
 						<div>
-							<p class="info-title">Эффективность</p>
+							<h3 class="info-title">Эффективность</h3>
 							<p class="info-descr services__info-descr">Высокая ценность продукции при&nbspоптимальной цене</p>
 						</div>
 					</div>
 				</div>
 				<div class="services-info">
 					<div class="services-info-block services-info-block-1">
-						<div class="services-info-block__title">Проектирование и дизайн</div>
+						<h3 class="services-info-block__title">Проектирование и дизайн</h3>
 						<div class="services-info-block__subtitle">Упаковка — лицо бренда</div>
 						<div class="services-info-block__descr services-info-block__descr-1">Это важный инструмент, который помогает увеличивать прибыль, привлекать новых клиентов, формировать имидж <br> и репутацию</div>
 					</div>
 					<div class="services-info-block services-info-block-2">
-						<div class="services-info-block__title">Печать</div>
+						<h3 class="services-info-block__title">Печать</h3>
 						<div class="services-info-block__subtitle">Гофротара как рекламный носитель</div>
 						<div class="services-info-block__descr services-info-block__descr-2">Нанесение логотипа на транспортировочную упаковку — это не дорогой способ повысить узнаваемость и увеличить лояльность к бренду</div>
 					</div>
 					<div class="services-info-block services-info-block-3">
-						<div class="services-info-block__title">Транспортировка</div>
+						<h3 class="services-info-block__title">Транспортировка</h3>
 						<div class="services-info-block__subtitle">Все виды доставки</div>
 						<div class="services-info-block__descr services-info-block__descr-3">Компания осуществляет доставку в&nbspлюбую&nbspточку Центральной <br> России</div>
 					</div>
 					<div class="services-info-block services-info-block-4">
-						<div class="services-info-block__title">Хранение</div>
+						<h3 class="services-info-block__title">Хранение</h3>
 						<div class="services-info-block__subtitle">Хранение продукции</div>
 						<div class="services-info-block__descr services-info-block__descr-4">Предприятие оборудовано тёплым складом класса А с электронной библиотекой хранения</div>
 					</div>
 				</div>
 			</section>
-			<section class="consultation">
-				<div class="consultation-title">Консультация специалиста</div>
+			<section class="consultation" id="consultation">
+				<h2 class="consultation-title">Консультация специалиста</h2>
 				<div class="consultation-descr">Оставьте ваши контактные данные и мы свяжемся с Вами для уточнения Вашего интереса и вместе выберем удобное время для встречи</div>
 				<form class="consultation-form">
 					<input class="form-input" type="text" id="full_name" name="full_name" placeholder="Ваше имя" required>
@@ -433,30 +491,32 @@
 					<img src="/icons/arrow-right.svg" alt="arrow">
 				</button>
 			</section>
-			<section class="newsletter">
+			<section class="newsletter" id="newsletter">
 				<div class="newslatter-head">
-					<div class="title">Новости</div>
-					<button class="newsletter-btn">Все новости</button>
+					<h2 class="title">Новости</h2>
+					<a class="newsletter-link">
+						<button class="newsletter-btn">Все новости</button>
+					</a>
 				</div>
 				<div class="news">
 					<div class="new">
 						<div class="new-block new-block-1">
 							<div class="new-date">2 августа 2022</div>
-							<div class="new-title">Официальное открытие</div>
+							<h3 class="new-title">Официальное открытие</h3>
 							<div class="new-descr">Во Владимире открыли новое предприятие «Формабокс» по выпуску гофрокартона и гофро-продукции. В мероприятии приняли участие врио губернатора Владимирской области Александр Авдеев, глава города Владимира Андрей Шохин и&nbspгенеральный директор предприятия Наталья Алексеева.</div>
 						</div>
 					</div>
 					<div class="new">
 						<div class="new-block new-block-2">
 							<div class="new-date">21 мая 2022</div>
-							<div class="new-title">Запуск гильзонавивочной линии</div>
+							<h3 class="new-title">Запуск гильзонавивочной линии</h3>
 							<div class="new-descr">Шпуленавивное оборудование предназначено для производства картонной шпули (втулки, гильзы) способом спиралевидной навивки из полос бумаги/картона.</div>
 						</div>
 					</div>
 					<div class="new">
 						<div class="new-block new-block-3">
 							<div class="new-date">5 апреля 2022</div>
-							<div class="new-title">Запуск автоматической фальцевально-склеивающей машины</div>
+							<h3 class="new-title">Запуск автоматической фальцевально-склеивающей машины</h3>
 							<div class="new-descr">Фальцевально-склеивающая линия применяется для складывания и склейки прямоугольных картонных коробок в автоматическом режиме из&nbspзаготовок. Может осуществлять склеивание картонных коробок и гофрокартонных коробов стандартного и сложного кроя, на&nbsp1&nbsp—&nbsp4&nbspточек&nbspсклейки.</div>
 						</div>
 					</div>
@@ -464,7 +524,7 @@
 			</section>
 		</div>
 	</main>
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<div class="container">
 			<div class="footer-container">
 				<div class="footer-top">
@@ -475,19 +535,37 @@
 					</div>
 					<div class="footer-item">
 						<ul class="footer-items footer-items-1">
+							<a href="#about-us" class="footer-link">
 								<li class="footer-list">О нас</li>
+							</a>
+							<a href="#products" class="footer-link">
 								<li class="footer-list">Продукция</li>
+							</a>
+							<a href="#services" class="footer-link">
 								<li class="footer-list">Услуги</li>
+							</a>
 						</ul>
 						<ul class="footer-items footer-items-2">
+							<a href="#newsletter" class="footer-link">
 								<li class="footer-list">Новости</li>
+							</a>
+							<a href="#" class="footer-link">
 								<li class="footer-list">Вакансии</li>
+							</a>
+							<a href="#footer" class="footer-link">
 								<li class="footer-list">Контакты</li>
+							</a>
 						</ul>
 						<ul class="footer-items footer-items-3">
+							<a href="#consultation" class="footer-link">
 								<li class="footer-list footer-list-grey">Консультация</li>
+							</a>
+							<a href="#" class="footer-link">
 								<li class="footer-list footer-list-grey">Связаться</li>
+							</a>
+							<a href="#" class="footer-link">
 								<li class="footer-list footer-list-grey">Оставить заявку</li>
+							</a>
 						</ul>
 				</div>
 				</div>
@@ -508,10 +586,18 @@
 						</div>
 						</div>
 						<div class="footer-contacts__social">
-								<img src="/icons/vk.svg" alt="">
-								<img src="/icons/ok.svg" alt="">
-								<img src="/icons/tg.svg" alt="">
-								<img src="/icons/youtube.svg" alt="">
+							<a href="https://vk.com/" target="_blank" class="footer-contacts__social-link">
+								<img src="/icons/vk.svg" alt="vk">
+							</a>
+							<a href="https://ok.ru/" target="_blank"  class="footer-contacts__social-link">
+								<img src="/icons/ok.svg" alt="ok">
+							</a>
+							<a href="https://web.telegram.org/" target="_blank"  class="footer-contacts__social-link">
+								<img src="/icons/tg.svg" alt="tg">
+							</a>
+							<a href="https://www.youtube.com/" target="_blank"  class="footer-contacts__social-link">
+								<img src="/icons/youtube.svg" alt="youtube">
+							</a>
 						</div>
 					</div>
 					<div class="footer-contacts__info">

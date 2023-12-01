@@ -75,11 +75,11 @@
 	}
 
 	.card-container-1 {
-		background-position: 292px 59px;
+		background-position: 260px 27px;
 	}
 
 	.card-container-2 {
-		background-position: 321px 60px;
+		background-position: 289px 28px;
 	}
 
 	.card-container-6 {
@@ -114,12 +114,12 @@
 
 	#gofrirovka {
 		background-image: url('/image/image38.png');
-		background-size: 783px 600px;
+		background-size: 783px 623px;
 	}
 	
 	#printing {
 		background-image: url('/image/image39.png');
-		background-size: 719px 600px;
+		background-size: 719px 623px;
 	}
 
 	.slider-block {
@@ -138,6 +138,10 @@
 
 	.technologies {
 		margin-top: 100px;
+	}
+
+	.technologies-info {
+		background-size: 115px 110px;
 	}
 
 	.technologies-sort {
@@ -326,8 +330,9 @@
 	.about-us__video-container {
 		width: 640px;
 		height: 361px;
-		margin-left: 60px;
 		margin-bottom: 62px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.about-us__video {
@@ -349,13 +354,13 @@
 	.about-us__descr-info {
 		font-size: 24px;
 		line-height: 32px;
-		width: 728px;
+		width: 100%;
 	}
 
 	.about-us__descr-descr {
     font-size: 16px;
     line-height: 24px;
-		width: 728px;
+		width: 100%;
 	}
 
 	.about-us__info {
@@ -400,7 +405,7 @@
 	}
 
 	.descr {
-		width: 576px;
+		width: 100%;
 		font-size: 20px;
 		line-height: 28px;
 	}
@@ -435,29 +440,29 @@
 
 	.card-container-1 {
 		background-image: url('./image/products-1.2.png');
-		background-position: 535px 0;
+		background-position: 503px -21px;
 	}
 	
 	.card-container-2 {
 		background-image: url('./image/products-2.2.png');
-		background-position: 578px 28px;
+		background-position: 546px -4px;
 	}
 	
 	.card-container-3 {
-		background-position: 15px 93px;
+		background-position: -17px 61px;
 	}
 	
 	.card-container-4 {
-		background-position: 23px 100px;
+		background-position: -9px 68px;
 	}
 	
 	.card-container-5 {
 		background-image: url('./image/products-5.2.png');
-		background-position: 450px 32px;
+		background-position: 418px 0;
 	}
 	
 	.card-container-6 {
-		background-position: 506px 24px;
+		background-position: 474px -8px;
 	}
 	
 	.card-container-7 {
@@ -471,7 +476,7 @@
 	
 	.card-container-9 {
 		background-image: url('./image/products-9.png');
-		background-position: 370px 16px;
+		background-position: 338px -16px;
 	}
 	
 	.card-container-10 {
@@ -486,21 +491,20 @@
 	
 	.card-container-12 {
 		background-image: url('./image/products-12.2.png');
-		background-position: 490px 13px;
+		background-position: 458px -19px;
 	}
 	
 	.card-container-13 {
 		background-image: url('./image/products-13.2.png');
-		background-position: 533px 38px;
+		background-position: 501px 6px;
+	}
+
+	.technologies-info {
+		background-size: 115px 110px;
 	}
 
 	.technologies-descr {
 		width: 728px;
-	}
-
-	.img-logo {
-		width: 115px;
-		height: 110px;
 	}
 
 	.slider-btn {
@@ -517,12 +521,12 @@
 
 	#gofrirovka {
 		background-image: url('/image/image12.png');
-		background-size: 449px 492px;
+		background-size: 449px 531px;
 	}
 
 	#printing {
 		background-image: url('/image/image12.png');
-		background-size: 449px 492px;
+		background-size: 449px 531px;
 	}
 
 	.slider-block {
@@ -644,7 +648,7 @@
 	}
 
 	.consultation {
-		margin-top: 326px;
+		margin-top: 240px;
 	}
 
 	.newsletter {
@@ -875,12 +879,8 @@
 		margin-top: 52px;
 	}
 
-	.about-us__video-container {
-		margin-left: 14px;
-	}
-
 	.about-us__descr {
-		width: 696px;
+		width: 100%;
 		margin-bottom: 40px;
 		margin-right: 0;
 	}
@@ -1009,10 +1009,6 @@
 		width: 576px;
 	}
 
-	.img-logo {
-		margin-bottom: auto;
-	}
-
 	.slider-btn {
 		margin-top: 40px;
 	}
@@ -1021,14 +1017,14 @@
 		background-image: url('/image/image55.png');
 		background-repeat: no-repeat;
 		background-size: 696px 347px;
-		border-radius: 24px 0px 0px 24px;
+		border-radius: 24px;
 	}
 	
 	#printing {
 		background-image: url('/image/image55.png');
 		background-repeat: no-repeat;
 		background-size: 696px 347px;
-		border-radius: 24px 0px 0px 24px;
+		border-radius: 24px;
 	}
 
 	.slider-block {
@@ -1058,6 +1054,7 @@
 
 	.technologies__info-descr {
 		font-size: 18px;
+		width: 100%;
 	}
 
 	.technologies-nature {
@@ -1087,6 +1084,7 @@
 
 	.services-info-block {
 		width: 336px;
+		background-size: cover;
 	}
 
 	.services-info-block-3, .services-info-block-4 {
@@ -1098,7 +1096,7 @@
 	}
 
 	.consultation {
-		margin-top: 288px;
+		margin-top: 210px;
 	}
 
 	.newsletter {
@@ -1139,7 +1137,6 @@
 	.new-descr {
 		width: 396px;
 		margin-left: 300px;
-		width: 400px;
 	}
 
 	.footer-info {
@@ -1232,7 +1229,7 @@
 	.header-title {
 		font-size: 20px;
 		line-height: 28px;
-		width: 288px;
+		width: 100%;
 		margin-top: 280px;
 	}
 
@@ -1246,7 +1243,7 @@
 	}
 
 	.mobile-nav {
-		width: 320px;
+		width: 100%;
 		height: 640px;
 		padding: 10px 16px 16px 16px;
 	}
@@ -1329,14 +1326,16 @@
 
 	.about-us__video-container {
 		width: 100%;
-		height: 162px;
+		height: 100%;
 		margin-left: 0;
 		margin-bottom: 30px;
 	}
 
 	.about-us__video {
-		width: 288px;
-		height: 162px;
+		/* width: 288px;
+		height: 162px; */
+		width: 100%;
+		height: 100%;
 		border-radius: 8px;
 	}
 
@@ -1535,15 +1534,20 @@
 		padding-top: 160px;
 	}
 
-	.technologies-descr {
-		width: 288px;
+	.technologies-info {
+		background-image: none;
 	}
 
-	.img-logo {
-		width: 60px;
-		height: 58px;
-		position: relative;
-		left: -60px;
+	.technologies-info .title {
+		width: 288px;
+		background-image: url('/image/logo.png');
+		background-size: 59px 59px;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+
+	.technologies-descr {
+		width: 100%;
 	}
 
 	.technologies-slider__btn {
@@ -1569,30 +1573,37 @@
 
 	.slider-list {
 		font-size: 14px;
-		width: 229px;
+		width: 100%;
 	}
 
 	#gofrirovka {
 		background-image: url('/image/image888.png');
 		background-repeat: no-repeat;
 		background-size: 286px 200px;
-		border-radius: 24px 24px 0 0;
+		border-radius: 8px;
 	}
 	
 	#printing {
 		background-image: url('/image/image888.png');
 		background-repeat: no-repeat;
 		background-size: 286px 200px;
-		border-radius: 24px 24px 0 0;
+		border-radius: 8px;
 	}
 
 	.slider-block {
 		padding: 0;
 		margin-top: 220px;
+		gap: 18px;
 	}
 
 	.slider-block__item {
-		width: 244px;
+		width: 100%;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.slider-block__item:last-child {
+		padding-bottom: 24px;
 	}
 
 	.technologies-sort {
@@ -1631,7 +1642,7 @@
 	}
 
 	.services__info-descr {
-		width: 240px;
+		width: 100%;
 	}
 
 	.services-info-block {
@@ -1640,6 +1651,7 @@
 	}
 
 	.services-info-block-1, .services-info-block-2, .services-info-block-3, .services-info-block-4 {
+		width: 100%;
 		width: 288px;
 		height: 160px;
 	}
@@ -1681,7 +1693,7 @@
 
 	.services-info-block__descr {
 		margin-top: 0;
-		width: 288px;
+		width: 100%;
 	}
 
 	.consultation {
@@ -1697,7 +1709,7 @@
 	.consultation-descr {
 		font-size: 14px;
 		line-height: 20px;
-		width: 288px;
+		width: 100%;
 	}
 
 	.consultation-form {
@@ -1728,12 +1740,13 @@
 
 	.new {
 		flex-direction: column;
-		width: 288px;
+		width: 100%;
 		height: 188px;
 	}
 
 	.new-block {
 		gap: 4px;
+		width: 100%;
 	}
 
 	.new-block-2 {
@@ -1747,14 +1760,14 @@
 	.new-date {
 		margin-left: 0;
 		margin-top: 200px;
-		width: 288px;
+		width: 100%;
 	}
 
 	.new-title {
 		font-size: 16px;
 		line-height: 24px;
 		margin-left: 0;
-		width: 288px;
+		width: 100%;
 	}
 
 	.new-descr {
@@ -1762,7 +1775,6 @@
 		font-size: 14px;
 		line-height: 20px;
 		margin-left: 0;
-		width: 288px;
 	}
 
 	.footer {
@@ -1782,6 +1794,7 @@
 
 	.footer-middle {
 		height: 100%;
+		width: 100%;
 		padding-top: 0;
 		padding-bottom: 0;
 		border-bottom: none;
@@ -1799,14 +1812,14 @@
 		padding-bottom: 16px;
 		margin-top: 0;
 		border-bottom: 1px solid #C7C3C1;
-		width: 288px;
+		width: 100%;
 	}
 
 	.footer-contacts__info-text {
 		display: block;
 		font-size: 24px;
 		line-height: 32px;
-		width: 288px;
+		width: 100%;
 	}
 
 	.footer-contacts__text {
@@ -1832,7 +1845,7 @@
 	.footer-info__descr-text {
 		font-size: 14px;
 		line-height: 20px;
-		width: 288px;
+		width: 100%;
 	}
 
 	.footer-info__subdescr {

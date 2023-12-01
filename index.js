@@ -76,10 +76,10 @@ arrowButtons320.forEach(button => {
 });
 
 
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("playPause");
-var playIcon = "/icons/play.svg"; 
-var pauseIcon = "/icons/pause.svg"; 
+const video = document.getElementById("myVideo");
+const btn = document.getElementById("playPause");
+const playIcon = "/icons/play.svg"; 
+const pauseIcon = "/icons/pause.svg"; 
 
 function togglePlayPause() {
 	if (video.paused || video.ended) {
